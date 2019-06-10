@@ -1,4 +1,4 @@
-package com.red.flink.java.cource04.model;
+package com.red.flink.java.course04.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

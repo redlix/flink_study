@@ -1,6 +1,6 @@
-package com.red.flink.scala.cource04
+package com.red.flink.scala.course04
 
-import com.red.flink.java.cource04.model.Person
+import com.red.flink.java.course04.model.Person
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.configuration.Configuration
 

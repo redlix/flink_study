@@ -1,4 +1,4 @@
-package com.red.flink.scala.cource04
+package com.red.flink.scala.course04
 
 import org.apache.commons.io.FileUtils
 import org.apache.flink.api.common.functions.RichMapFunction

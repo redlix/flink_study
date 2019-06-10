@@ -1,4 +1,4 @@
-package com.red.flink.java.cource04;
+package com.red.flink.java.course04;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
 

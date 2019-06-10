@@ -1,6 +1,6 @@
-package com.red.flink.java.cource04;
+package com.red.flink.java.course04;
 
-import com.red.flink.scala.cource04.DbUtil;
+import com.red.flink.scala.course04.DbUtil;
 import org.apache.flink.api.common.functions.*;
 import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.ExecutionEnvironment;

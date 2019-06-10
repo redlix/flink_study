@@ -1,4 +1,4 @@
-package com.red.flink.scala.cource04
+package com.red.flink.scala.course04
 
 import scala.util.Random
 
