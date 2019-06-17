@@ -38,10 +38,13 @@ object KafkaConnectorProducerApp {
 
         properties.setProperty("bootstrap.servers", "master:9092")
 
+        //        val kafkaSink = new FlinkKafkaProducer[String](topic,
+        //            new SimpleStringSchema(),
+        //            properties)
         val kafkaSink = new FlinkKafkaProducer[String](topic,
-            new SimpleStringSchema(),
-            properties)
-
+            new KeyedSerializationSchemaWrapper[String](new SimpleStringSchema()),
+            properties,
+            FlinkKafkaProducer.Semantic.EXACTLY_ONCE)
         data.addSink(kafkaSink)
 
         env.execute("KafkaConnectorProducerApp")
